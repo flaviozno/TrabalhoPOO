@@ -1,18 +1,9 @@
-## Getting Started
+## SETUP
+# Download JBDC e POSTGRESQL
+- Instale o __postgresql__ e o __pgAdmin4__.
+- Baixe a versão compatível do [__JBDC__](https://jdbc.postgresql.org/download.html) para conseguir se conectar no __postgres__.
+- Após fazer o __pull__ do repositório, adicione o path do __JBDC__ na pasta do projeto para conseguir rodar o codigo.
 
-Welcome to the VS Code Java world. Here is a guideline to help you get started to write Java code in Visual Studio Code.
-
-## Folder Structure
-
-The workspace contains two folders by default, where:
-
-- `src`: the folder to maintain sources
-- `lib`: the folder to maintain dependencies
-
-Meanwhile, the compiled output files will be generated in the `bin` folder by default.
-
-> If you want to customize the folder structure, open `.vscode/settings.json` and update the related settings there.
-
-## Dependency Management
-
-The `JAVA PROJECTS` view allows you to manage your dependencies. More details can be found [here](https://github.com/microsoft/vscode-java-dependency#manage-dependencies).
+# Variáveis Locais
+- Dentro do arquivo __conect.java__ altere o __password__ para o padrao do seu postgres e também o caminho do __URL__
+- Caso tente inserir alguma coisa no BD, altere o local pois ele está consfigurado como __PK__.

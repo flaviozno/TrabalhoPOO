@@ -1,18 +1,19 @@
 import java.sql.*;
 import java.time.LocalDate;
-
-public class db {
+public class db{
     private String url = "jdbc:postgresql://localhost:5432/poo";
     private String username = "postgres";
     private String password = "151140";
     private Connection c = null;
 
-    public void startConnection() {
+    public void startConnection(){
         try {
             Class.forName("org.postgresql.Driver");
             c = DriverManager.getConnection(url, username, password);
             System.out.println("Conexão realizada com sucesso");
             c.setAutoCommit(false);
+        } catch (SQLException ex) {
+            System.err.println(ex);
         } catch (Exception e) {
             e.printStackTrace();
             System.err.println("Erro na conexão!");
@@ -30,6 +31,8 @@ public class db {
             stmt.close();
             c.commit();
             System.out.println("Dados cadastrados com sucesso!");
+        } catch (SQLException ex) {
+            System.err.println(ex);
         } catch (Exception e) {
             e.printStackTrace();
             System.err.println("Erro na inserçção no DB!");
@@ -47,6 +50,8 @@ public class db {
             stmt.close();
             c.commit();
             System.out.println("Dados cadastrados com sucesso!");
+        } catch (SQLException ex) {
+            System.err.println(ex);
         } catch (Exception e) {
             e.printStackTrace();
             System.err.println("Erro na inserçção no DB!");
@@ -70,6 +75,8 @@ public class db {
 
             result.close();
             stmt.close();
+        } catch (SQLException ex) {
+            System.err.println(ex);
         } catch (Exception e) {
             e.printStackTrace();
             System.err.println("Erro na inserção no DB!");
@@ -88,6 +95,8 @@ public class db {
         try {
             c.close();
             System.out.println("A conexão com o BD foi encerrada");
+        } catch (SQLException ex) {
+            System.err.println(ex);
         } catch (Exception e) {
             e.printStackTrace();
             System.err.println("Erro ao fechar DB!");

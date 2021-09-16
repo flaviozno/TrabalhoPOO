@@ -5,9 +5,8 @@ public final class aviao extends transporte {
     private int escalas;
     private static int contMax = 0;
 
-    public aviao(String destino, int lotacao, int classe, int escalas, int bagagem, double preco, String passageiro,
-            int CPF) {
-        super(destino, lotacao, preco, passageiro, CPF);
+    public aviao(String destino, int lotacao, int classe, int escalas, int bagagem, double preco) {
+        super(destino, lotacao, preco);
         this.classe = classe;
         this.bagagem = bagagem;
         this.escalas = escalas;
@@ -17,8 +16,8 @@ public final class aviao extends transporte {
     public void handleSubmit() {
         db DB = new db();
         DB.startConnection();
-        DB.Insert(getDestino(), getPassageiro(), getCPF(), getLotacao(), getPreco(), classe, bagagem, escalas,
-                getDate());
+        //DB.Insert(getDestino(), getLotacao(), getPreco(), classe, bagagem, escalas,
+                //getDate());
     }
 
     public static int getCont() {

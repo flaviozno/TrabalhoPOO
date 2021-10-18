@@ -1,0 +1,107 @@
+package com.example.demo.model;
+
+import javax.persistence.Column;
+import javax.persistence.Entity;
+import javax.persistence.GeneratedValue;
+import javax.persistence.GenerationType;
+import javax.persistence.Id;
+import javax.persistence.Table;
+
+@Entity
+@Table(name = "viajantes")
+public class Viajante {
+	
+	@Id
+	@GeneratedValue(strategy = GenerationType.IDENTITY)
+	private long id;
+	
+	@Column(name = "first_name")
+	private String firstName;
+	
+	@Column(name = "last_name")
+	private String LastName;
+	
+	@Column(name = "cpf")
+	private String CPF;
+	
+	@Column(name = "destino")
+	private String destino;
+	
+	@Column(name = "origem")
+	private String origem;
+	
+	@Column(name = "idade")
+	private int idade;
+	
+	@Column(name = "bagagem")
+	private int bagagem;
+	
+	@Column(name = "acompanhantes")
+	private int acompanhantes;
+	
+	public Viajante() {
+		
+	}
+	
+	
+
+	public Viajante(long id, String fname, String lname, String cpf, String destino, String origem, int idade,
+			int bagagem, int acompanhantes) {
+		super();
+		this.id = id;
+		this.firstName = fname;
+		this.LastName = lname;
+		this.CPF = cpf;
+		this.destino = destino;
+		this.origem = origem;
+		this.idade = idade;
+		this.bagagem = bagagem;
+		this.acompanhantes = acompanhantes;
+	}
+
+
+
+	public long getId() {
+		return id;
+	}
+
+
+	public String getFirstName() {
+		return firstName;
+	}
+
+
+	public String getLastName() {
+		return LastName;
+	}
+
+
+	public String getCPF() {
+		return CPF;
+	}
+
+
+	public String getDestino() {
+		return destino;
+	}
+
+
+	public String getOrigem() {
+		return origem;
+	}
+
+
+	public int getIdade() {
+		return idade;
+	}
+
+	public int getBagagem() {
+		return bagagem;
+	}
+
+
+	public int getAcompanhantes() {
+		return acompanhantes;
+	}
+	
+}

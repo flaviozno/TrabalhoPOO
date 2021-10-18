@@ -194,3 +194,102 @@
 2021-10-17 22:25:34,661 [Worker-25: Launching poo-backend - PooBackendApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
 2021-10-17 22:25:34,661 [Worker-25: Launching poo-backend - PooBackendApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
 2021-10-17 22:25:34,661 [Worker-25: Launching poo-backend - PooBackendApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /media/flaviozno/HD1/EAD/Trabalho de Java/poo-backend/src/test/resources
+2021-10-18 08:59:56,612 [Worker-1: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is up-to-date. Trying to read.
+2021-10-18 09:05:56,786 [Worker-14: Launching poo-backend - PooBackendApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-10-18 09:05:56,804 [Worker-14: Launching poo-backend - PooBackendApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2021-10-18 09:05:56,809 [Worker-14: Launching poo-backend - PooBackendApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2021-10-18 09:05:56,896 [Worker-14: Launching poo-backend - PooBackendApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2021-10-18 09:05:56,916 [Worker-14: Launching poo-backend - PooBackendApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-10-18 09:05:56,916 [Worker-14: Launching poo-backend - PooBackendApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2021-10-18 09:05:56,916 [Worker-14: Launching poo-backend - PooBackendApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /media/flaviozno/HD1/EAD/Trabalho de Java/poo-backend/src/test/resources
+2021-10-18 09:07:59,484 [Worker-5: Launching poo-backend - PooBackendApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-10-18 09:07:59,485 [Worker-5: Launching poo-backend - PooBackendApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2021-10-18 09:07:59,491 [Worker-5: Launching poo-backend - PooBackendApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2021-10-18 09:07:59,538 [Worker-5: Launching poo-backend - PooBackendApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2021-10-18 09:07:59,546 [Worker-5: Launching poo-backend - PooBackendApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-10-18 09:07:59,546 [Worker-5: Launching poo-backend - PooBackendApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2021-10-18 09:07:59,546 [Worker-5: Launching poo-backend - PooBackendApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /media/flaviozno/HD1/EAD/Trabalho de Java/poo-backend/src/test/resources
+2021-10-18 11:08:04,384 [Worker-21: Launching poo-backend - PooBackendApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-10-18 11:08:04,406 [Worker-21: Launching poo-backend - PooBackendApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2021-10-18 11:08:04,426 [Worker-21: Launching poo-backend - PooBackendApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2021-10-18 11:08:04,561 [Worker-21: Launching poo-backend - PooBackendApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2021-10-18 11:08:04,577 [Worker-21: Launching poo-backend - PooBackendApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-10-18 11:08:04,578 [Worker-21: Launching poo-backend - PooBackendApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2021-10-18 11:08:04,578 [Worker-21: Launching poo-backend - PooBackendApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /media/flaviozno/HD1/EAD/Trabalho de Java/poo-backend/src/test/resources
+2021-10-18 11:54:47,122 [Worker-31: Launching poo-backend - PooBackendApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-10-18 11:54:47,143 [Worker-31: Launching poo-backend - PooBackendApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2021-10-18 11:54:47,150 [Worker-31: Launching poo-backend - PooBackendApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2021-10-18 11:54:47,178 [Worker-31: Launching poo-backend - PooBackendApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2021-10-18 11:54:47,183 [Worker-31: Launching poo-backend - PooBackendApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-10-18 11:54:47,183 [Worker-31: Launching poo-backend - PooBackendApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2021-10-18 11:54:47,196 [Worker-31: Launching poo-backend - PooBackendApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /media/flaviozno/HD1/EAD/Trabalho de Java/poo-backend/src/test/resources
+2021-10-18 11:56:44,671 [Worker-33: Launching poo-backend - PooBackendApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-10-18 11:56:44,672 [Worker-33: Launching poo-backend - PooBackendApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2021-10-18 11:56:44,675 [Worker-33: Launching poo-backend - PooBackendApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2021-10-18 11:56:44,695 [Worker-33: Launching poo-backend - PooBackendApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2021-10-18 11:56:44,698 [Worker-33: Launching poo-backend - PooBackendApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-10-18 11:56:44,698 [Worker-33: Launching poo-backend - PooBackendApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2021-10-18 11:56:44,698 [Worker-33: Launching poo-backend - PooBackendApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /media/flaviozno/HD1/EAD/Trabalho de Java/poo-backend/src/test/resources
+2021-10-18 11:59:22,620 [Worker-37: Launching poo-backend - PooBackendApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-10-18 11:59:22,626 [Worker-37: Launching poo-backend - PooBackendApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2021-10-18 11:59:22,697 [Worker-37: Launching poo-backend - PooBackendApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2021-10-18 11:59:22,743 [Worker-37: Launching poo-backend - PooBackendApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2021-10-18 11:59:22,753 [Worker-37: Launching poo-backend - PooBackendApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-10-18 11:59:22,753 [Worker-37: Launching poo-backend - PooBackendApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2021-10-18 11:59:22,753 [Worker-37: Launching poo-backend - PooBackendApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /media/flaviozno/HD1/EAD/Trabalho de Java/poo-backend/src/test/resources
+2021-10-18 12:03:13,242 [Worker-36: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-10-18 12:03:13,244 [Worker-36: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2021-10-18 12:03:13,245 [Worker-36: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2021-10-18 12:03:13,268 [Worker-36: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2021-10-18 12:03:13,270 [Worker-36: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-10-18 12:03:13,270 [Worker-36: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2021-10-18 12:03:13,270 [Worker-36: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /media/flaviozno/HD1/EAD/Trabalho de Java/poo-backend/src/test/resources
+2021-10-18 12:03:19,864 [Worker-36: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-10-18 12:03:19,868 [Worker-36: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2021-10-18 12:03:19,876 [Worker-36: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2021-10-18 12:03:19,912 [Worker-36: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2021-10-18 12:03:19,915 [Worker-36: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-10-18 12:03:19,915 [Worker-36: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2021-10-18 12:03:19,915 [Worker-36: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /media/flaviozno/HD1/EAD/Trabalho de Java/poo-backend/src/test/resources
+2021-10-18 12:06:39,151 [Worker-44: Launching poo-backend - PooBackendApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-10-18 12:06:39,153 [Worker-44: Launching poo-backend - PooBackendApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2021-10-18 12:06:39,154 [Worker-44: Launching poo-backend - PooBackendApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2021-10-18 12:06:39,191 [Worker-44: Launching poo-backend - PooBackendApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2021-10-18 12:06:39,194 [Worker-44: Launching poo-backend - PooBackendApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-10-18 12:06:39,194 [Worker-44: Launching poo-backend - PooBackendApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2021-10-18 12:06:39,194 [Worker-44: Launching poo-backend - PooBackendApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /media/flaviozno/HD1/EAD/Trabalho de Java/poo-backend/src/test/resources
+2021-10-18 12:10:31,118 [Worker-46: Launching poo-backend - PooBackendApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-10-18 12:10:31,120 [Worker-46: Launching poo-backend - PooBackendApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2021-10-18 12:10:31,122 [Worker-46: Launching poo-backend - PooBackendApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2021-10-18 12:10:31,165 [Worker-46: Launching poo-backend - PooBackendApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2021-10-18 12:10:31,182 [Worker-46: Launching poo-backend - PooBackendApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-10-18 12:10:31,185 [Worker-46: Launching poo-backend - PooBackendApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2021-10-18 12:10:31,186 [Worker-46: Launching poo-backend - PooBackendApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /media/flaviozno/HD1/EAD/Trabalho de Java/poo-backend/src/test/resources
+2021-10-18 12:14:53,444 [Worker-43: Launching poo-backend - PooBackendApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-10-18 12:14:53,444 [Worker-43: Launching poo-backend - PooBackendApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2021-10-18 12:14:53,446 [Worker-43: Launching poo-backend - PooBackendApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2021-10-18 12:14:53,477 [Worker-43: Launching poo-backend - PooBackendApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2021-10-18 12:14:53,486 [Worker-43: Launching poo-backend - PooBackendApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-10-18 12:14:53,487 [Worker-43: Launching poo-backend - PooBackendApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2021-10-18 12:14:53,487 [Worker-43: Launching poo-backend - PooBackendApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /media/flaviozno/HD1/EAD/Trabalho de Java/poo-backend/src/test/resources
+2021-10-18 12:20:24,408 [Worker-47: Launching poo-backend - PooBackendApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-10-18 12:20:24,409 [Worker-47: Launching poo-backend - PooBackendApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2021-10-18 12:20:24,410 [Worker-47: Launching poo-backend - PooBackendApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2021-10-18 12:20:24,417 [Worker-47: Launching poo-backend - PooBackendApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2021-10-18 12:20:24,419 [Worker-47: Launching poo-backend - PooBackendApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-10-18 12:20:24,420 [Worker-47: Launching poo-backend - PooBackendApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2021-10-18 12:20:24,420 [Worker-47: Launching poo-backend - PooBackendApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /media/flaviozno/HD1/EAD/Trabalho de Java/poo-backend/src/test/resources
+2021-10-18 12:26:21,193 [Worker-43: Launching poo-backend - PooBackendApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-10-18 12:26:21,193 [Worker-43: Launching poo-backend - PooBackendApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2021-10-18 12:26:21,196 [Worker-43: Launching poo-backend - PooBackendApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2021-10-18 12:26:21,216 [Worker-43: Launching poo-backend - PooBackendApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2021-10-18 12:26:21,218 [Worker-43: Launching poo-backend - PooBackendApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-10-18 12:26:21,218 [Worker-43: Launching poo-backend - PooBackendApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2021-10-18 12:26:21,219 [Worker-43: Launching poo-backend - PooBackendApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /media/flaviozno/HD1/EAD/Trabalho de Java/poo-backend/src/test/resources
+2021-10-18 12:28:57,789 [Worker-62: Launching poo-backend - PooBackendApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-10-18 12:28:57,790 [Worker-62: Launching poo-backend - PooBackendApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2021-10-18 12:28:57,792 [Worker-62: Launching poo-backend - PooBackendApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2021-10-18 12:28:57,798 [Worker-62: Launching poo-backend - PooBackendApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2021-10-18 12:28:57,809 [Worker-62: Launching poo-backend - PooBackendApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-10-18 12:28:57,810 [Worker-62: Launching poo-backend - PooBackendApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2021-10-18 12:28:57,810 [Worker-62: Launching poo-backend - PooBackendApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /media/flaviozno/HD1/EAD/Trabalho de Java/poo-backend/src/test/resources

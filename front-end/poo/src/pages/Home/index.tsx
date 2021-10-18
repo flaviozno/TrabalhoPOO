@@ -14,7 +14,7 @@ export default function Home() {
                 <h1>FACOM Trips</h1>
                 <span>Reserver aqui a viagem dos seus sonhos!</span>
                 <button>
-                    <Link to="/cadastro">
+                    <Link to="/cadastro" id="btn">
                        Let's travel
                     </Link>
                 </button>

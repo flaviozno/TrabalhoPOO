@@ -37,5 +37,8 @@ export const Aside = styled.div`
         padding: 10px;
         display: flex;
         align-items: center;
+        #btn{
+            color: red;
+        }
     }
 ` 

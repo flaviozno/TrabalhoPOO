@@ -2,13 +2,13 @@ import React from 'react';
 import { TextField, Button } from '@material-ui/core';
 import { Formik, Form } from 'formik'
 
-import axios from 'axios'
+import api from '../../services/api'
 
 import { Container } from './styles'
 
 interface iValues {
     firstName: string;
-    LastName: string;
+    lastName: string;
     cpf: string;
     destino: string;
     origem: string
@@ -25,9 +25,9 @@ export default function MyForm(props: iForm) {
     return (
         <Container>
             <Formik
-                initialValues={{firstName: "", LastName: "", cpf: "", destino: "",  origem: "", idade: "", bagagem: "", acompanhantes: "" }}
+                initialValues={{firstName: "", lastName: "", cpf: "", destino: "",  origem: "", idade: "", bagagem: "", acompanhantes: "" }}
                 onSubmit={values => {
-                    axios.post('http://localhost:8080/api/viajante', values)
+                    api.post(`viajante`, values)
                     console.log(values);
                 }}
             >
@@ -42,8 +42,8 @@ export default function MyForm(props: iForm) {
                             id="textField"
                         />
                         <TextField
-                            name="LastName"
-                            value={values.LastName}
+                            name="lastName"
+                            value={values.lastName}
                             onChange={handleChange}
                             onBlur={handleBlur}
                             placeholder="Sobrenome"

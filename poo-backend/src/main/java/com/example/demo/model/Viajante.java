@@ -7,8 +7,6 @@ import javax.persistence.GenerationType;
 import javax.persistence.Id;
 import javax.persistence.Table;
 
-import com.sun.istack.NotNull;
-
 @Entity
 @Table(name = "viajantes")
 public class Viajante {
@@ -17,51 +15,47 @@ public class Viajante {
 	@GeneratedValue(strategy = GenerationType.IDENTITY)
 	private long id;
 	
-	@Column(name = "firstName")
+	@Column(name = "firstName",nullable=false)
 	private String firstName;
 	
-	@Column(name = "LastName")
-	private String LastName;
+	@Column(name = "lastName",nullable=false)
+	private String lastName;
 	
-	@Column(name = "cpf")
-	private String CPF;
+	@Column(name = "cpf",nullable=false)
+	private String cpf;
 	
-	@Column(name = "destino")
+	@Column(name = "destino",nullable=false)
 	private String destino;
 	
-	@Column(name = "origem")
+	@Column(name = "origem",nullable=false)
 	private String origem;
 	
-	@Column(name = "idade")
+	@Column(name = "idade",nullable=false)
 	private int idade;
 	
-	@Column(name = "bagagem")
+	@Column(name = "bagagem",nullable=false)
 	private int bagagem;
 	
-	@Column(name = "acompanhantes")
+	@Column(name = "acompanhantes",nullable=false)
 	private int acompanhantes;
 	
 	public Viajante() {
 		
 	}
-	
-	
 
-	public Viajante(long id, String firstName, String lastName, String cPF, String destino, String origem, int idade,
+	public Viajante(long id, String firstName, String lastName, String cpf, String destino, String origem, int idade,
 			int bagagem, int acompanhantes) {
 		super();
 		this.id = id;
 		this.firstName = firstName;
-		this.LastName = lastName;
-		CPF = cPF;
+		this.lastName = lastName;
+		this.cpf = cpf;
 		this.destino = destino;
 		this.origem = origem;
 		this.idade = idade;
 		this.bagagem = bagagem;
 		this.acompanhantes = acompanhantes;
 	}
-
-
 
 	public long getId() {
 		return id;
@@ -80,19 +74,19 @@ public class Viajante {
 	}
 
 	public String getLastName() {
-		return LastName;
+		return lastName;
 	}
 
 	public void setLastName(String lastName) {
-		this.LastName = lastName;
+		this.lastName = lastName;
 	}
 
-	public String getCPF() {
-		return CPF;
+	public String getCpf() {
+		return cpf;
 	}
 
-	public void setCPF(String cPF) {
-		CPF = cPF;
+	public void setCpf(String cpf) {
+		this.cpf = cpf;
 	}
 
 	public String getDestino() {
@@ -134,6 +128,7 @@ public class Viajante {
 	public void setAcompanhantes(int acompanhantes) {
 		this.acompanhantes = acompanhantes;
 	}
+	
 	
 	
 	

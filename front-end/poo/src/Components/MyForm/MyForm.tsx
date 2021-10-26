@@ -7,8 +7,8 @@ import api from '../../services/api'
 import { Container } from './styles'
 
 interface iValues {
-    firstName: string;
-    lastName: string;
+    nome: string;
+    sobrenome: string;
     cpf: string;
     destino: string;
     origem: string
@@ -25,7 +25,7 @@ export default function MyForm(props: iForm) {
     return (
         <Container>
             <Formik
-                initialValues={{firstName: "", lastName: "", cpf: "", destino: "",  origem: "", idade: "", bagagem: "", acompanhantes: "" }}
+                initialValues={{nome: "", sobrenome: "", cpf: "", destino: "",  origem: "", idade: "", bagagem: "", acompanhantes: "" }}
                 onSubmit={values => {
                     api.post(`viajante`, values)
                     console.log(values);
@@ -34,16 +34,16 @@ export default function MyForm(props: iForm) {
                 {({ values, handleChange, handleBlur }) => (
                     <Form id="form">
                         <TextField
-                            name="firstName"
-                            value={values.firstName}
+                            name="nome"
+                            value={values.nome}
                             onChange={handleChange}
                             onBlur={handleBlur}
                             placeholder="Nome"
                             id="textField"
                         />
                         <TextField
-                            name="lastName"
-                            value={values.lastName}
+                            name="sobrenome"
+                            value={values.sobrenome}
                             onChange={handleChange}
                             onBlur={handleBlur}
                             placeholder="Sobrenome"

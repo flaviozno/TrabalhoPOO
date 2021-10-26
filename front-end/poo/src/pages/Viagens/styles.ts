@@ -28,6 +28,11 @@ export const Container = styled.div`
         padding: 20px;
         border: none;
     }
+    tr{
+        :hover {
+            cursor: pointer;
+        }
+    }
     tbody > tr{
         #id{
             :hover{

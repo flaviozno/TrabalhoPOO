@@ -3,10 +3,12 @@ import React, { useEffect, useState } from 'react'
 import api from '../../services/api'
 import swal from 'sweetalert';
 
+
 import { Container, Title } from './styles'
 import { useHistory } from 'react-router-dom';
 
 interface IViagens {
+    setId: number;
     id: number;
     tipo: string;
     chegada: string;
@@ -61,7 +63,7 @@ export default function Viagens(props: IViagens) {
                 </thead>
                 <tbody>
                     {viagens.map((viagem) =>
-                        <tr onClick={()=> history.push("/cadastro")}>
+                        <tr onClick={()=> history.push(`/cadastro`)}>
                             <td>{viagem.origem}</td>
                             <td>{viagem.destino}</td>
                             <td>{viagem.saida}</td>

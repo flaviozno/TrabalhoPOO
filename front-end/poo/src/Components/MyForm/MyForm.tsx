@@ -1,4 +1,4 @@
-import React from 'react';
+import React, {useState} from 'react';
 import { TextField, Button } from '@material-ui/core';
 import { Formik, Form } from 'formik'
 
@@ -6,15 +6,16 @@ import api from '../../services/api'
 
 import { Container } from './styles'
 
+import { useHistory } from 'react-router-dom';
 interface iValues {
     nome: string;
     sobrenome: string;
     cpf: string;
-    destino: string;
-    origem: string
     idade: number;
     bagagem: number;
     acompanhantes: number;
+    origem: string;
+    destino: string;
 }
 
 interface iForm {
@@ -22,13 +23,28 @@ interface iForm {
 }
 
 export default function MyForm(props: iForm) {
+    const [flag, setFlag] = useState(1)
+    const history = useHistory();
     return (
         <Container>
             <Formik
-                initialValues={{nome: "", sobrenome: "", cpf: "", destino: "",  origem: "", idade: "", bagagem: "", acompanhantes: "" }}
+                initialValues={{nome: "", sobrenome: "", cpf: "", idade: "", bagagem: "", acompanhantes: "", origem: "", destino: ""}}
                 onSubmit={values => {
-                    api.post(`viajante`, values)
-                    console.log(values);
+                    try {
+                        api.post(`viajante`, values).catch((e)=> {
+                            if(e) alert(e.message)
+                            else setFlag(0)
+                        })
+                    } catch (error) {
+                        console.log(error)
+                    }finally {
+                        if(!flag)
+                            window.location.reload();
+                        else{
+                            history.push("/");
+                            window.location.reload();
+                        }
+                    }
                 }}
             >
                 {({ values, handleChange, handleBlur }) => (
@@ -38,6 +54,7 @@ export default function MyForm(props: iForm) {
                             value={values.nome}
                             onChange={handleChange}
                             onBlur={handleBlur}
+                            required
                             placeholder="Nome"
                             id="textField"
                         />
@@ -46,6 +63,7 @@ export default function MyForm(props: iForm) {
                             value={values.sobrenome}
                             onChange={handleChange}
                             onBlur={handleBlur}
+                            required
                             placeholder="Sobrenome"
                             id="textField"
                         />
@@ -54,6 +72,7 @@ export default function MyForm(props: iForm) {
                             value={values.cpf}
                             onChange={handleChange}
                             onBlur={handleBlur}
+                            required
                             placeholder="CPF"
                             id="textField"
                         />
@@ -62,23 +81,8 @@ export default function MyForm(props: iForm) {
                             value={values.idade}
                             onChange={handleChange}
                             onBlur={handleBlur}
+                            required
                             placeholder="Idade"
-                            id="textField"
-                        />
-                        <TextField
-                            name="origem"
-                            value={values.origem}
-                            onChange={handleChange}
-                            onBlur={handleBlur}
-                            placeholder="Origem"
-                            id="textField"
-                        />
-                        <TextField
-                            name="destino"
-                            value={values.destino}
-                            onChange={handleChange}
-                            onBlur={handleBlur}
-                            placeholder="Destino"
                             id="textField"
                         />
                         <TextField
@@ -86,6 +90,7 @@ export default function MyForm(props: iForm) {
                             value={values.bagagem}
                             onChange={handleChange}
                             onBlur={handleBlur}
+                            required
                             placeholder="Bagagem"
                             id="textField"
                         />
@@ -94,7 +99,26 @@ export default function MyForm(props: iForm) {
                             value={values.acompanhantes}
                             onChange={handleChange}
                             onBlur={handleBlur}
+                            required
                             placeholder="Acompanhantes"
+                            id="textField"
+                        />
+                        <TextField
+                            name="origem"
+                            value={values.origem}
+                            onChange={handleChange}
+                            onBlur={handleBlur}
+                            required
+                            placeholder="Origem"
+                            id="textField"
+                        />
+                        <TextField
+                            name="destino"
+                            value={values.destino}
+                            onChange={handleChange}
+                            onBlur={handleBlur}
+                            required
+                            placeholder="Destino"
                             id="textField"
                         />
                         <Button id="btn" type="submit">Cadastrar</Button>

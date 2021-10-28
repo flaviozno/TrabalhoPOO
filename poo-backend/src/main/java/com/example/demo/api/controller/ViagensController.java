@@ -2,6 +2,8 @@ package com.example.demo.api.controller;
 
 import java.util.List;
 
+import javax.validation.Valid;
+
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.ResponseEntity;
 import org.springframework.transaction.annotation.Transactional;
@@ -31,7 +33,7 @@ public class ViagensController {
 	}
 	
 	@PutMapping("/viagens/{id}")
-	public ResponseEntity<Viagens> atualizar(@PathVariable Long id, @RequestBody Viagens viagens){
+	public ResponseEntity<Viagens> atualizar(@Valid @PathVariable Long id, @RequestBody Viagens viagens){
 		if(!viagensRepository.existsById(id)) {
 			return ResponseEntity.notFound().build();
 		}

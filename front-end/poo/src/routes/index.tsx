@@ -9,8 +9,8 @@ export default function Routes() {
   return (
     <BrowserRouter>
       <Switch>
-        <Route path="/" exact component={Home} />
-        <Route path="/cadastro" exact component={Cadastro} />
+        <Route path="/" exact component={Home}/>
+        <Route path="/cadastro" exact component={Cadastro}/>
         <Route path="/viagens" exact component={Viagens} />
       </Switch>
     </BrowserRouter>

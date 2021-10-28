@@ -2,9 +2,10 @@ package com.example.demo.api.controller;
 
 import java.util.List;
 
+import javax.validation.Valid;
+
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;
-import org.springframework.transaction.annotation.Transactional;
 import org.springframework.web.bind.annotation.CrossOrigin;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PostMapping;
@@ -31,7 +32,7 @@ public class ViajanteController {
 	
 	@PostMapping
 	@ResponseStatus(HttpStatus.CREATED)
-	public Viajante adicionar(@RequestBody Viajante viajante) {
+	public Viajante adicionar(@Valid @RequestBody Viajante viajante) {
 		return viajanteRepository.save(viajante);
 	}
 	
